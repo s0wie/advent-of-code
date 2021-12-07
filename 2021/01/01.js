@@ -1,7 +1,7 @@
 // 1. Using node.js for the first time PART ONE
 // Got correct answer, but should be wrong since it's still a string?
 let fs = require("fs");
-let text = fs.readFileSync("2021/01.txt");
+let text = fs.readFileSync("2021/01/01.txt");
 text = text.toString();
 let array = text.split("\n");
 
