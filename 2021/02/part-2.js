@@ -12,7 +12,7 @@ for (i = 0; i < array.length; i++) {
   if (array[i].includes("forward")) {
     forward = parseInt(array[i][8]);
     forwardCount += forward;
-    depth += forward * parseInt(aim);
+    depth += forward * aim;
   }
   if (array[i].includes("down")) {
     aim += parseInt(array[i][5]);
